@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Decoder</title>
+</head>
+<body>
+    <nav><div class="title">Sentences Decoder</div></nav>
+    <main>
+        <section class="encrypt-section">
+            <textarea rows="10" cols="50">Type a sentence</textarea>
+            <div class="instruction">
+                <img class="exclamation-icon" src="images/bi_exclamation-circle-fill.png"><span class="instruction-text">Do not use capital letters or special characters.</span>
+            </div>
+            <div class="buttons">
+                <button class="button" id="encrypt-button">Encrypt</button>
+                <button class="button" id="decrypt-button">Decrypt</button>    
+            </div>
+            
+        </section>
+        <section class="decrypt-section">
+            <div class="decrypted-sentence">
+                <img src="images/decrypt.png" class="decrypt-img-placeholder">
+                <p class="message">No sentence found.</p>
+                <p class="message-detail">Enter sentence that you want to encrypt or decrypt.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+          Built with &#10084;&#65039; by
+          <a class="contact-link" href="https://linkedin.com/in/miachafer" target="_blank"
+            >Mia</a>
+        </p>
+  </footer>
+</body>
+</html>
